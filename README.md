@@ -2,7 +2,11 @@
 
 Learn about Java programming
 
-# Fundamental Java
+## Fundamental Java
+
+Berikut beberapa hal yang dipelajari untuk fundamental java:
+
+### **Materi**
 
 - Tipe Data
   - BelajarJavaProgramming
@@ -30,5 +34,11 @@ Learn about Java programming
 - Method
   - MethodVoid
   - MethodNonVoid
-- Coba
-  - Coba01
+
+### **Percobaan**
+
+- Coba01
+
+### **Tugas**
+
+- Menghitung Rumus Luas + Keliling (TaskFundamental01)

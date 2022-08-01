@@ -1,4 +1,4 @@
-package FundamentalJava;
+package FundamentalJava.Materi;
 
 public class IfThenElse {
   public static void main(String[] args) {

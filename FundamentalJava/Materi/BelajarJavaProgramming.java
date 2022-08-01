@@ -1,4 +1,4 @@
-package FundamentalJava;
+package FundamentalJava.Materi;
 
 public class BelajarJavaProgramming {
   public static void main(String[] args) {

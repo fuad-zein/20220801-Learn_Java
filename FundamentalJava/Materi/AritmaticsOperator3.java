@@ -1,4 +1,4 @@
-package FundamentalJava;
+package FundamentalJava.Materi;
 
 public class AritmaticsOperator3 {
   public static void main(String[] args) {

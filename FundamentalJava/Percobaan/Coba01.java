@@ -1,4 +1,4 @@
-package FundamentalJava;
+package FundamentalJava.Percobaan;
 
 public class Coba01 {
   public static void main(String[] args) {
