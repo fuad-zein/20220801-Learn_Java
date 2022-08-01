@@ -23,5 +23,11 @@ Learn about Java programming
   - IfThenElse
   - IfThenElseIfElse
   - SwitchCase
-- Looping
+- Looping (Flow Control)
+  - WhileDoWhile
+  - ForLoop
+  - EnhancedForLoop
 - Method
+  - MethodVoid
+  - MethodNonVoid
+- Coba
