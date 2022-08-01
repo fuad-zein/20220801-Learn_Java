@@ -1,3 +1,2 @@
-# Learning About Java
-
-- Fundamental Java:
+# Fundamental Java
+- Tipe Data
