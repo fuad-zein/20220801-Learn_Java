@@ -59,9 +59,23 @@ Berikut pembelajaran mengenai OOP java:
   - CodeExample04
 - Abstraction
 
+### **Percobaan**
+
+- [Coba01](https://www.petanikode.com/java-oop/)
+- [Coba02](https://www.petanikode.com/java-oop/)
+- [Coba03](https://www.petanikode.com/java-oop-inheritance/)
+- [Coba04](https://www.petanikode.com/java-oop-inheritance/)
+- [Coba05](https://www.petanikode.com/java-oop-modifier/)
+- [Coba06](https://www.petanikode.com/java-oop-setter-getter/)
+- [Coba07](https://www.petanikode.com/java-oop-this-super/)
+- [Coba08](https://www.petanikode.com/java-oop-polimorfisme/)
+- [Coba09](https://www.petanikode.com/java-oop-interface/)
+
 ## 03. Exam
 
 Link => [Exam OOP](https://drive.google.com/file/d/1CceUQMk5l2wdGA1vXimUz4WGzSO9T09N/view?usp=sharing)
 
 Note: mengerjakan nomor 03 saja.
 
+- Coba01
+- Exam03
