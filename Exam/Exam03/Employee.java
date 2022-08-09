@@ -1,8 +1,8 @@
 package Exam.Exam03;
 
 public class Employee {
-  private int id;
   private String firstName;
+  private int id;
   private String lastName;
   private int salary;
   // int percent;
@@ -60,10 +60,6 @@ public class Employee {
     return salary * 12;
   }
 
-  // increase salary
-  // public int raiseSalary(int percent) {
-  // return salary + (salary * percent / 100);
-  // }
   public int raiseSalary() {
     return salary;
   }
@@ -71,5 +67,9 @@ public class Employee {
   // toString()
   public String toString() {
     return "Employee [id = " + id + ", name = " + firstName + " " + lastName + ", salary = " + salary;
+  }
+
+  public void jobDesk() {
+    System.out.println("Employee");
   }
 }
