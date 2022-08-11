@@ -70,5 +70,6 @@ public class Main {
         System.out.println("Maaf, input salah!!!");
         break;
     }
+    input.close();
   }
 }

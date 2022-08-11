@@ -41,10 +41,11 @@ public class SelfPrime {
 
     // List<Integer> primes = getPrimes(in);
     // for (int i = 1; i < primes.size(); i++) {
-    //   System.out.println("Bilangan Prima ke = "+ i + " dengan nilai = ");
+    // System.out.println("Bilangan Prima ke = "+ i + " dengan nilai = ");
     // }
 
     System.out.println();
     System.out.println("===========================");
+    input.close();
   }
 }
