@@ -1,4 +1,4 @@
-package Logic.Task01.Prima;
+package Logic.Task01.Prima.MyCode;
 
 public class Prima {
   public void valuePrima() {

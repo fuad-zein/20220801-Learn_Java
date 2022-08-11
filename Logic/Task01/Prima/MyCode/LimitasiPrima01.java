@@ -1,4 +1,4 @@
-package Logic.Task01.Prima;
+package Logic.Task01.Prima.MyCode;
 
 import java.util.Scanner;
 

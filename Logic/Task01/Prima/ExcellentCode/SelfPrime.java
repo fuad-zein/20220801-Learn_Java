@@ -1,9 +1,26 @@
-package Logic.Task01.Prima;
+package Logic.Task01.Prima.ExcellentCode;
 
 // import java.util.List;
 import java.util.Scanner;
 
 public class SelfPrime {
+
+  // Excellent code number two
+  // Karena ada pembagian 2 di for loop
+  public static void forPrimes(int in) {
+    for (int i = 2; i < in; i++) {
+      boolean isPrime = true;
+      for (int j = 2; j <= (i / 2); j++) { // 10/2 = 5
+        if (i % j == 0) {
+          isPrime = false;
+          break;
+        }
+      }
+      if (isPrime) {
+        System.out.print(i + " ");
+      }
+    }
+  }
 
   public static void getPrimes(int in) {
     boolean isPrime = true;
@@ -22,21 +39,6 @@ public class SelfPrime {
       }
       i++;
       isPrime = true;
-    }
-  }
-
-  public static void forPrimes(int in) {
-    for (int i = 2; i < in; i++) {
-      boolean isPrime = true;
-      for (int j = 2; j <= (i / 2); j++) { // 10/2 = 5
-        if (i % j == 0) {
-          isPrime = false;
-          break;
-        }
-      }
-      if (isPrime) {
-        System.out.print(i + " ");
-      }
     }
   }
 
