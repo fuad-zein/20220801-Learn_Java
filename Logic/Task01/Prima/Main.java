@@ -10,7 +10,8 @@ public class Main {
     Prima prima = new Prima();
     LimitasiPrima01 limitasiPrima01 = new LimitasiPrima01();
     LimitasiPrima02 limitasiPrima02 = new LimitasiPrima02();
-    SearchPrima searchPrima = new SearchPrima();
+    SearchPrima01 searchPrima01 = new SearchPrima01();
+    SearchPrima02 searchPrima02 = new SearchPrima02();
 
     System.out.println();
     System.out.println("============================================");
@@ -20,6 +21,7 @@ public class Main {
     System.out.println("A. Input Limitasi Bilangan Prima");
     System.out.println("B. Input Limitasi Bilangan Prima Awal Akhir");
     System.out.println("C. Menentukan Bilangan Prima atau Bukan");
+    System.out.println("D. Menentukan Bilangan Prima dengan Alasan");
     System.out.println("--------------------------------------------");
 
     System.out.print("Masukkan Pilihan = ");
@@ -49,7 +51,16 @@ public class Main {
       case "C":
         System.out.println("  C. Menentukan Bilangan Prima atau Bukan   ");
         System.out.println();
-        searchPrima.valuePrima();
+        searchPrima01.valuePrima();
+        System.out.println();
+        System.out.println("============================================");
+        System.out.println();
+        break;
+
+      case "D":
+        System.out.println("   D. Menentukan Bilangan Prima dengan Alasan  ");
+        System.out.println();
+        searchPrima02.valuePrima();
         System.out.println();
         System.out.println("============================================");
         System.out.println();

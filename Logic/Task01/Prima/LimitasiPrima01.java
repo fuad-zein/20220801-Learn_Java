@@ -3,7 +3,7 @@ package Logic.Task01.Prima;
 import java.util.Scanner;
 
 public class LimitasiPrima01 extends Prima {
-  boolean cek = true;
+  boolean isPrime = true;
   int in;
   Scanner input = new Scanner(System.in);
 
@@ -18,16 +18,16 @@ public class LimitasiPrima01 extends Prima {
       int j = 2;
       while (j < i) {
         if (i % j == 0) {
-          cek = false;
+          isPrime = false;
           break;
         }
         j++;
       }
-      if (cek == true) {
+      if (isPrime == true) {
         System.out.print(i + " ");
       }
       i++;
-      cek = true;
+      isPrime = true;
     }
   }
 }
