@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SecPrime {
-  public static List<Integer> getPrimes(int in) {
+
+  static List<Integer> getPrimes(int in) {
     List<Integer> primes = new ArrayList<>();
 
     for (int i = 2; i < in; i++) {
@@ -23,14 +24,17 @@ public class SecPrime {
   }
 
   public static void main(String[] args) {
-    int in = 100;
+    int in = 1000;
     List<Integer> primes = getPrimes(in);
     System.out.println();
 
     for (int x = 0; x < primes.size(); x++) {
-      System.out.println("Bilangan prima ke - " + (x + 1) + " adalah " + primes.get(x));
+      System.out.println("Bilangan Prima ke - " + (x + 1) + " adalah " +
+          primes.get(x));
     }
 
-    // System.out.println(primes.size());
+    System.out.println("============================");
+    System.out.println("Total Bilangan Prima = " + primes.size());
+    System.out.println();
   }
 }

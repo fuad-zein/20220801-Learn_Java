@@ -16,7 +16,7 @@ public class MasDev {
       boolean isPrime = true;
       final int limit2 = i;
       for (Integer prime : primes.stream()
-          .filter(x -> x < limit2 / 2)
+          .filter(x -> x <= limit2 / 2)
           .collect(Collectors.toList())) {
         if (i % prime == 0) {
           isPrime = false;
